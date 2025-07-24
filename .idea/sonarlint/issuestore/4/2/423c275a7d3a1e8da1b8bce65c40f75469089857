@@ -1,0 +1,11 @@
+
+
+java:S1319
+"kThe type of "contactDetails" should be an interface such as "Map" rather than the implementation "HashMap".(‡ì¬ª
+i
+java:S1104	"SMake message a static final constant or non-public and provide accessors if needed.(ÕÃØ·
+p
+java:S1104
+"ZMake contactDetails a static final constant or non-public and provide accessors if needed.(‡ì¬ª
+o
+java:S1104"YMake onCallSupoort a static final constant or non-public and provide accessors if needed.(›Íî

@@ -1,0 +1,14 @@
+
+spring:
+  config:
+    activate:
+      on-profile: "POD"
+
+accounts:
+  message: "testing Configuration Properties for POD Prfile"
+  contactDetails:
+    name: "POD"
+    email: "POD@test.com"
+  onCallSupoort:
+    - (999)555 2345
+    - (999)555 2346

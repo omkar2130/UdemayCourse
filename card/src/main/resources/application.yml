@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: card-service
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_pod.yml"
+
+
+server:
+  port: 8081
+
+accounts:
+  message: "testing Configuration Properties"
+  contactDetails:
+    name: "Omkar"
+    email: "omkar@test.com"
+  onCallSupoort:
+    - (222)555 2345
+    - (222)555 2346

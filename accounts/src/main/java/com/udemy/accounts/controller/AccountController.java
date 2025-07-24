@@ -16,9 +16,12 @@ import org.springframework.web.bind.annotation.*;
 public class AccountController {
     @Autowired
     IAccountService accountService;
+    @Value("${value.a}")
+    int aa;
     @PostMapping("/createAccount")
     public ResponseEntity<ResponseDto> createAccount(@Valid @RequestBody CustomerDto customerDto){
             accountService.createAccount(customerDto);
+
         return ResponseEntity.status(HttpStatus.CREATED).body(new ResponseDto(Constants.STATUS_201,Constants.MASSAGE_201));
     }
 
@@ -36,6 +39,12 @@ public class AccountController {
         }else {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(new ResponseDto(Constants.STATUS_500,Constants.STATUS_500));
         }
+    }
+
+    @GetMapping("/getDataFromCardService")
+    public ResponseEntity<CardRecordsDTO> getDataFromCardService() {
+       CardRecordsDTO cardRecordsDTO= accountService.getCardDetailsUsingFeignClient();
+        return ResponseEntity.status(HttpStatus.OK).body(cardRecordsDTO);
     }
 }
 
