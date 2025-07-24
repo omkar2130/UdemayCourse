@@ -9,6 +9,7 @@ public interface IAccountService {
      * @param customerDto -CustomerDto Object
      */
     void createAccount(CustomerDto customerDto);
-    public CustomerDto fetchAccount(String mobileNumber);
-    public boolean deleteAccount(String mobileNumber);
+     CustomerDto fetchAccount(String mobileNumber);
+     boolean deleteAccount(String mobileNumber);
+     CardRecordsDTO getCardDetailsUsingFeignClient();
 }

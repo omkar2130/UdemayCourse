@@ -1,8 +1,4 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é’áıÿÿÿÿ8‚»ö¼3
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é’áıÿÿÿÿ8ı¯Û¯ƒ3
 @
-java:S2119="Save and re-use this "Random".(×¢ËÇúÿÿÿÿ8—»ö¼3
-f
-java:S1128"IRemove this unused import 'org.springframework.beans.factory.annotation'.(–ÛÌç8˜»ö¼3
-W
-java:S1128"5Remove this unused import 'org.springframework.http'.(çôø·ûÿÿÿÿ8˜»ö¼3
+java:S2119A"Save and re-use this "Random".(×¢ËÇúÿÿÿÿ8Ÿ°Û¯ƒ3

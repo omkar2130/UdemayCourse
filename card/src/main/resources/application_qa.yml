@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+accounts:
+  message: "testing Configuration Properties for QA Prfile"
+  contactDetails:
+    name: "QA"
+    email: "QA@test.com"
+  onCallSupoort:
+    - (353)555 2345
+    - (354)555 2346

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63ce0779-f1d8-4905-b240-aaa0ddd63079" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/dto/CardRecordsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/feignClasses/CardClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/src/main/java/com/udemy/card/CardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/src/main/java/com/udemy/card/dtos/CardRecordsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/src/main/java/com/udemy/card/records/ConfigRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/src/main/java/com/udemy/card/services/CardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/src/main/java/com/udemy/card/services/ICardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/src/main/resources/application_pod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/src/main/resources/application_qa.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/card/src/test/java/com/udemy/card/CardApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/section2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/section2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/178d30cb1d0138487396ca8493deb916148de8a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37fbd18b642a582a7af71ef100c7d88e00595555" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bb6819656c66de91ff5fea07ffb2aa37ad994cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5dbd86eaf504d3013aa82a0ded5943fa50ac3907" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f9a7d857cfef1ccc9cf372228dacfb15e5f30db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f2d9fa4f39debde0d9a6ca147229f883ba517c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/684595140768b54ad7f34ef80c867caee9cc4bde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c676a4e89cfba2800dac034be3ac0baa0ce1cdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71a559791d042b81f5a5f3e0ab8dd42912148693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/733aa93a01e8260e72a00f10aa9f632c23ce4447" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/769b841a746672fad002aee0a6e0db99b7b31b32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86f61cfaea297f98aa8d2f207daef01ff58dceea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f15b5cb0ead37b8f7f7181864ee306cb5623bd7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0ea6ef042e65f1d947afd774585208629b1e218" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d315fbb557e00ba55f61cf5f9eba2d30e32f5334" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e81c61aec2eb4ca9d9cc7cfd169fabb8a42f8169" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/178d30cb1d0138487396ca8493deb916148de8a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/7/37fbd18b642a582a7af71ef100c7d88e00595555" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3bb6819656c66de91ff5fea07ffb2aa37ad994cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5dbd86eaf504d3013aa82a0ded5943fa50ac3907" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/f/5f9a7d857cfef1ccc9cf372228dacfb15e5f30db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/66f2d9fa4f39debde0d9a6ca147229f883ba517c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/8/684595140768b54ad7f34ef80c867caee9cc4bde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/c/6c676a4e89cfba2800dac034be3ac0baa0ce1cdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/1/71a559791d042b81f5a5f3e0ab8dd42912148693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/3/733aa93a01e8260e72a00f10aa9f632c23ce4447" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/6/769b841a746672fad002aee0a6e0db99b7b31b32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/6/86f61cfaea297f98aa8d2f207daef01ff58dceea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/9/9925787c46135e19880e254d95c32226ddc180da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9f15b5cb0ead37b8f7f7181864ee306cb5623bd7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/0/b0ea6ef042e65f1d947afd774585208629b1e218" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/3/d315fbb557e00ba55f61cf5f9eba2d30e32f5334" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e81c61aec2eb4ca9d9cc7cfd169fabb8a42f8169" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/AccountsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/services/Implementation/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/services/Implementation/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/services/interfaces/IAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/services/interfaces/IAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="302ltXrSm4EBklA6UcNFu68E9wV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountsApplication.executor": "Run",
+    "Application.CardApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "test",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4361335"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.udemy.accounts.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AccountsApplication">
+    <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.accounts.AccountsApplication" />
+      <module name="accounts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.accounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.card.CardApplication" />
+      <module name="card" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.card.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AccountsApplication" />
+        <item itemvalue="Application.CardApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63ce0779-f1d8-4905-b240-aaa0ddd63079" name="Changes" comment="" />
+      <created>1752833764419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752833764419</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/controller/AccountController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/accounts/src/main/java/com/udemy/accounts/controller/AccountController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
